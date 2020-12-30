@@ -1,0 +1,59 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.centered{
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+#banner_button{
+    position: absolute;
+    top: 125%;
+}
+#about_us_image{
+    height: 80%;
+    width: 40%;
+    margin-top: 10%;
+}
+#about_us_text{
+    position: absolute;
+    top: 160%;
+    width: 50%;
+    left: 120%;
+    background-color:whitesmoke;
+    padding: 5%;
+    transform: translate(-160%,-50%);
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+#home_page_footer{
+    background-color: grey;
+}
+#focus_section{
+    font-family: 'Times New Roman', Times, serif;
+}
+@media only screen and (max-width:1000px){
+    #about_us_text{
+        margin-top: -114%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #about_us_image{
+        margin-top: 20%;
+        height: 250px;
+        width: 250px;
+    }
+    .centered,h1{
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: -7%;        
+    }
+    .centered,button{
+        margin-top: -10%;
+    }
+    #focus_section{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+}
